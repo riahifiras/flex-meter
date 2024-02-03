@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow:hover{
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #0074e1,
+            0 0 0.8rem #0074e1,
+            0 0 2.8rem #0074e1,
+            inset 0 0 1.3rem #0074e1;
+
+}
+
+.always-shadow{
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #0074e1,
+            0 0 0.8rem #0074e1,
+            0 0 2.8rem #0074e1,
+            inset 0 0 1.3rem #0074e1;
+
+}
